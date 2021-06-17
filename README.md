@@ -25,9 +25,6 @@ In case of technical questions, issues or problems with DC Apps Performance Tool
 
 #### Dependencies
 #Python 3.7-3.8 and pip
-#Python 3.7-3.8 and pip
-#Python 3.7-3.8 and pip
-#Python 3.7-3.8 and pip
 * JDK 8
 * Google Chrome web browser
 * Git client (only for Bitbucket DC)
@@ -74,6 +71,10 @@ virtualenv venv -p python3.8
 3. Activate virtual env:
 ```
 source venv/bin/activate
+```
+3.5 Activate virtual env:
+```
+sudo apt-get install python3.8-dev
 ```
 4. Install dependencies:
 ```
