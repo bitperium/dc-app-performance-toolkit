@@ -24,7 +24,10 @@ In case of technical questions, issues or problems with DC Apps Performance Tool
 ## Installation and set up
 
 #### Dependencies
-* Python 3.7-3.8 and pip
+#Python 3.7-3.8 and pip
+#Python 3.7-3.8 and pip
+#Python 3.7-3.8 and pip
+#Python 3.7-3.8 and pip
 * JDK 8
 * Google Chrome web browser
 * Git client (only for Bitbucket DC)
@@ -41,7 +44,7 @@ Make sure that you have:
 * XCode Command Line Tools
 * Google Chrome web browser
 ```
-python3 --version
+python3.8 --version
 pip --version
 java -version
 # command to check if XCode Command Line Tools installed
@@ -56,13 +59,17 @@ git --version
 
 We recommend using [virtualenv](https://virtualenv.pypa.io/en/latest/) for Taurus.
 
+0. Install python3.8 with apt:
+```
+sudo apt install python3.8
+```
 1. Install virtualenv with pip:
 ```
 pip install virtualenv
 ```
 2. Create new virtual env with python3:
 ```
-virtualenv venv -p python3
+virtualenv venv -p python3.8
 ```
 3. Activate virtual env:
 ```
